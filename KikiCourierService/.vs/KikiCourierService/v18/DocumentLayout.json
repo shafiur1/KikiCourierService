@@ -3,10 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\shafi\\source\\repos\\KikiCourierService\\KikiCourierService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E9EB7EBA-489D-4F4B-B95F-8B019464D9ED}|KikiCourierService.csproj|c:\\users\\shafi\\source\\repos\\kikicourierservice\\kikicourierservice\\visualstudio.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{E9EB7EBA-489D-4F4B-B95F-8B019464D9ED}|KikiCourierService.csproj|solutionrelative:visualstudio.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EA98B493-B30C-4757-B329-88F7A8001F53}|..\\KikiCourierService.Models\\KikiCourierService.Models.csproj|c:\\users\\shafi\\source\\repos\\kikicourierservice\\kikicourierservice.models\\package.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -48,32 +44,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "VisualStudio.gitignore",
-              "DocumentMoniker": "C:\\Users\\shafi\\source\\repos\\KikiCourierService\\KikiCourierService\\VisualStudio.gitignore",
-              "RelativeDocumentMoniker": "VisualStudio.gitignore",
-              "ToolTip": "C:\\Users\\shafi\\source\\repos\\KikiCourierService\\KikiCourierService\\VisualStudio.gitignore",
-              "RelativeToolTip": "VisualStudio.gitignore",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-12-02T18:27:00.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Package.cs",
               "DocumentMoniker": "C:\\Users\\shafi\\source\\repos\\KikiCourierService\\KikiCourierService.Models\\Package.cs",
               "RelativeDocumentMoniker": "..\\KikiCourierService.Models\\Package.cs",
               "ToolTip": "C:\\Users\\shafi\\source\\repos\\KikiCourierService\\KikiCourierService.Models\\Package.cs",
               "RelativeToolTip": "..\\KikiCourierService.Models\\Package.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-02T18:14:19.449Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Offer.cs",
               "DocumentMoniker": "C:\\Users\\shafi\\source\\repos\\KikiCourierService\\KikiCourierService.Models\\Offer.cs",
               "RelativeDocumentMoniker": "..\\KikiCourierService.Models\\Offer.cs",
@@ -81,12 +64,11 @@
               "RelativeToolTip": "..\\KikiCourierService.Models\\Offer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-02T18:14:17.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-02T18:14:17.079Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\shafi\\source\\repos\\KikiCourierService\\KikiCourierService\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -94,12 +76,11 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAwwBwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T09:38:20.476Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T09:38:20.476Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "DeliveryPlanner.cs",
               "DocumentMoniker": "C:\\Users\\shafi\\source\\repos\\KikiCourierService\\KikiCourierService.Services\\DeliveryPlanner.cs",
               "RelativeDocumentMoniker": "..\\KikiCourierService.Services\\DeliveryPlanner.cs",
@@ -107,12 +88,11 @@
               "RelativeToolTip": "..\\KikiCourierService.Services\\DeliveryPlanner.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAgwB0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T09:50:09.482Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T09:50:09.482Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "CostCalculator.cs",
               "DocumentMoniker": "C:\\Users\\shafi\\source\\repos\\KikiCourierService\\KikiCourierService.Services\\CostCalculator.cs",
               "RelativeDocumentMoniker": "..\\KikiCourierService.Services\\CostCalculator.cs",
@@ -120,12 +100,11 @@
               "RelativeToolTip": "..\\KikiCourierService.Services\\CostCalculator.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAWwAoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T09:48:13.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T09:48:13.06Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "IDeliveryPlanner.cs",
               "DocumentMoniker": "C:\\Users\\shafi\\source\\repos\\KikiCourierService\\KikiCourierService.Interfaces\\IDeliveryPlanner.cs",
               "RelativeDocumentMoniker": "..\\KikiCourierService.Interfaces\\IDeliveryPlanner.cs",
@@ -133,12 +112,11 @@
               "RelativeToolTip": "..\\KikiCourierService.Interfaces\\IDeliveryPlanner.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T09:45:52.11Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T09:45:52.11Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "ICostCalculator.cs",
               "DocumentMoniker": "C:\\Users\\shafi\\source\\repos\\KikiCourierService\\KikiCourierService.Interfaces\\ICostCalculator.cs",
               "RelativeDocumentMoniker": "..\\KikiCourierService.Interfaces\\ICostCalculator.cs",
@@ -146,12 +124,11 @@
               "RelativeToolTip": "..\\KikiCourierService.Interfaces\\ICostCalculator.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T17:02:00.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T17:02:00.917Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "IOfferRepository.cs",
               "DocumentMoniker": "C:\\Users\\shafi\\source\\repos\\KikiCourierService\\KikiCourierService.Interfaces\\IOfferRepository.cs",
               "RelativeDocumentMoniker": "..\\KikiCourierService.Interfaces\\IOfferRepository.cs",
