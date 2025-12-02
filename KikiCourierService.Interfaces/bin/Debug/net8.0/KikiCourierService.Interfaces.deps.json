@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "KikiCourierService.Interfaces/1.0.0": {
+        "dependencies": {
+          "KikiCourierService.Models": "1.0.0"
+        },
+        "runtime": {
+          "KikiCourierService.Interfaces.dll": {}
+        }
+      },
+      "KikiCourierService.Models/1.0.0": {
+        "runtime": {
+          "KikiCourierService.Models.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KikiCourierService.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KikiCourierService.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,17 @@
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Services\obj\Debug\net8.0\KikiCourierService.Services.csproj.AssemblyReference.cache
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Services\obj\Debug\net8.0\KikiCourierService.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Services\obj\Debug\net8.0\KikiCourierService.Services.AssemblyInfoInputs.cache
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Services\obj\Debug\net8.0\KikiCourierService.Services.AssemblyInfo.cs
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Services\obj\Debug\net8.0\KikiCourierService.Services.csproj.CoreCompileInputs.cache
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Services\bin\Debug\net8.0\KikiCourierService.Services.deps.json
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Services\bin\Debug\net8.0\KikiCourierService.Services.dll
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Services\bin\Debug\net8.0\KikiCourierService.Services.pdb
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Services\bin\Debug\net8.0\KikiCourierService.Interfaces.dll
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Services\bin\Debug\net8.0\KikiCourierService.Models.dll
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Services\bin\Debug\net8.0\KikiCourierService.Interfaces.pdb
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Services\bin\Debug\net8.0\KikiCourierService.Models.pdb
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Services\obj\Debug\net8.0\KikiCour.B3259808.Up2Date
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Services\obj\Debug\net8.0\KikiCourierService.Services.dll
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Services\obj\Debug\net8.0\refint\KikiCourierService.Services.dll
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Services\obj\Debug\net8.0\KikiCourierService.Services.pdb
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Services\obj\Debug\net8.0\ref\KikiCourierService.Services.dll

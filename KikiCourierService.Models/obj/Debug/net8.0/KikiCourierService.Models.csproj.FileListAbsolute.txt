@@ -1,0 +1,11 @@
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Models\bin\Debug\net8.0\KikiCourierService.Models.deps.json
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Models\bin\Debug\net8.0\KikiCourierService.Models.dll
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Models\bin\Debug\net8.0\KikiCourierService.Models.pdb
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Models\obj\Debug\net8.0\KikiCourierService.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Models\obj\Debug\net8.0\KikiCourierService.Models.AssemblyInfoInputs.cache
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Models\obj\Debug\net8.0\KikiCourierService.Models.AssemblyInfo.cs
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Models\obj\Debug\net8.0\KikiCourierService.Models.csproj.CoreCompileInputs.cache
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Models\obj\Debug\net8.0\KikiCourierService.Models.dll
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Models\obj\Debug\net8.0\refint\KikiCourierService.Models.dll
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Models\obj\Debug\net8.0\KikiCourierService.Models.pdb
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Models\obj\Debug\net8.0\ref\KikiCourierService.Models.dll

@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KikiCourierService.Interfaces\KikiCourierService.Interfaces.csproj" />
+    <ProjectReference Include="..\KikiCourierService.Models\KikiCourierService.Models.csproj" />
+  </ItemGroup>
+
+</Project>
