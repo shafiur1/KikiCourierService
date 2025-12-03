@@ -15,3 +15,4 @@ C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Services\obj\D
 C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Services\obj\Debug\net8.0\refint\KikiCourierService.Services.dll
 C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Services\obj\Debug\net8.0\KikiCourierService.Services.pdb
 C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Services\obj\Debug\net8.0\ref\KikiCourierService.Services.dll
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Services\obj\Debug\net8.0\KikiCourierService.Services.sourcelink.json

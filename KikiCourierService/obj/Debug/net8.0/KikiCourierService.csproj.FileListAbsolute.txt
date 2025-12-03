@@ -55,3 +55,4 @@ C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\obj\Debug\net8
 C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\obj\Debug\net8.0\KikiCourierService.pdb
 C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\obj\Debug\net8.0\KikiCourierService.genruntimeconfig.cache
 C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\obj\Debug\net8.0\ref\KikiCourierService.dll
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\obj\Debug\net8.0\KikiCourierService.sourcelink.json

@@ -13,3 +13,4 @@ C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Interfaces\obj
 C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Interfaces\obj\Debug\net8.0\refint\KikiCourierService.Interfaces.dll
 C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Interfaces\obj\Debug\net8.0\KikiCourierService.Interfaces.pdb
 C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Interfaces\obj\Debug\net8.0\ref\KikiCourierService.Interfaces.dll
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService.Interfaces\obj\Debug\net8.0\KikiCourierService.Interfaces.sourcelink.json
