@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("KikiCourierService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc79403fa53a9213121bca8277a4ae80b6691bad")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c6b8d429c1f23a8da93bc9c9b006ec411d9bf50c")]
 [assembly: System.Reflection.AssemblyProductAttribute("KikiCourierService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("KikiCourierService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
