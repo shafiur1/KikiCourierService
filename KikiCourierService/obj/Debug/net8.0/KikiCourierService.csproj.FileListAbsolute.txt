@@ -1,8 +1,3 @@
-C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\obj\Debug\net8.0\KikiCourierService.csproj.AssemblyReference.cache
-C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\obj\Debug\net8.0\KikiCourierService.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\obj\Debug\net8.0\KikiCourierService.AssemblyInfoInputs.cache
-C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\obj\Debug\net8.0\KikiCourierService.AssemblyInfo.cs
-C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\obj\Debug\net8.0\KikiCourierService.csproj.CoreCompileInputs.cache
 C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\bin\Debug\net8.0\KikiCourierService.exe
 C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\bin\Debug\net8.0\KikiCourierService.deps.json
 C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\bin\Debug\net8.0\KikiCourierService.runtimeconfig.json
@@ -49,10 +44,15 @@ C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\bin\Debug\net8
 C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\bin\Debug\net8.0\KikiCourierService.Interfaces.pdb
 C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\bin\Debug\net8.0\KikiCourierService.Models.pdb
 C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\bin\Debug\net8.0\KikiCourierService.Services.pdb
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\obj\Debug\net8.0\KikiCourierService.csproj.AssemblyReference.cache
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\obj\Debug\net8.0\KikiCourierService.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\obj\Debug\net8.0\KikiCourierService.AssemblyInfoInputs.cache
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\obj\Debug\net8.0\KikiCourierService.AssemblyInfo.cs
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\obj\Debug\net8.0\KikiCourierService.csproj.CoreCompileInputs.cache
+C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\obj\Debug\net8.0\KikiCourierService.sourcelink.json
 C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\obj\Debug\net8.0\KikiCour.FC2F1C40.Up2Date
 C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\obj\Debug\net8.0\KikiCourierService.dll
 C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\obj\Debug\net8.0\refint\KikiCourierService.dll
 C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\obj\Debug\net8.0\KikiCourierService.pdb
 C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\obj\Debug\net8.0\KikiCourierService.genruntimeconfig.cache
 C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\obj\Debug\net8.0\ref\KikiCourierService.dll
-C:\Users\shafi\source\repos\KikiCourierService\KikiCourierService\obj\Debug\net8.0\KikiCourierService.sourcelink.json
