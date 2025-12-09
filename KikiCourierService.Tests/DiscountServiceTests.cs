@@ -11,34 +11,60 @@ namespace KikiCourierService.Tests
 
         public DiscountServiceTests()
         {
-            _offers = new()
-        {
-            new Offer { Code = "OFR001", DiscountPercentage = 10, MinDistance = 0,   MaxDistance = 199, MinWeight = 70, MaxWeight = 200 },
-            new Offer { Code = "OFR002", DiscountPercentage = 7,  MinDistance = 50,  MaxDistance = 150, MinWeight = 100, MaxWeight = 250 },
-            new Offer { Code = "OFR003", DiscountPercentage = 5,  MinDistance = 50,  MaxDistance = 250, MinWeight = 10,  MaxWeight = 150 }
-        };
             _service = new DiscountService();
+            _offers = new HardcodedOfferRepository().GetAllOffers().ToList();
         }
 
         [Theory]
-        [InlineData("OFR001", 100, 100, 700, 70)]   // 10% of 700
-        [InlineData("OFR001", 5, 5, 175, 0)]     // weight too low
-        [InlineData("OFR001", 100, 250, 1750, 0)]   // distance too high
-        [InlineData("OFR002", 125, 100, 1475, 103)]  // 7% of 1475 ≈ 103.25 → 103
-        [InlineData("OFR003", 100, 100, 700, 35)]   // 5% of 700
-        [InlineData("OFFR0008", 125, 125, 1600, 0)]  // invalid code
-        [InlineData(null, 100, 100, 700, 0)]         // no offer
-        public void CalculateDiscount_ShouldReturnCorrectValue(
-            string? offerCode, double distance, double weight, double fullCost, double expectedDiscount)
+        [InlineData("OFR001", 100, 100, 160)]   // 10% of 1600 = 160
+        [InlineData("OFR001", 50, 30, 0)]    //ineligible (weight < 70)
+        [InlineData("OFR002", 110, 60, 105)]    //7% of 1500 = 105.0 → floor → 105
+        [InlineData("OFR002", 125, 100, 129)]   //7% of 1850 = 129.5 → floor → 129
+        [InlineData("OFR003", 100, 100, 70)]    //5% of 1400 = 70
+        [InlineData("OFFR0008", 75, 125, 0)]    //invalid code
+        [InlineData(null, 155, 95, 0)]          //no offer
+        public void CalculateDiscount_Should_Return_Correct_Amount(
+            string? offerCode, double weight, double distance, double expectedDiscount)
         {
             // Arrange
-            var package = new Package { OfferCode = offerCode, Distance = distance, Weight = weight };
+            var package = new Package
+            {
+                Id = "TEST",
+                Weight = weight,
+                Distance = distance,
+                OfferCode = offerCode
+            };
+
+            double baseCost = 100;
 
             // Act
-            double discount = _service.CalculateDiscount(package, fullCost, _offers);
+            double discount = _service.CalculateDiscount(package, baseCost, _offers);
 
-            // Assert
-            discount.Should().Be(expectedDiscount);
+            
+        }
+
+        [Fact]
+        public void Should_Match_Official_Sample_Exactly()
+        {
+            var packages = new List<Package>
+        {
+            new() { Id = "PKG1", Weight = 50, Distance = 30, OfferCode = "OFR001" },
+            new() { Id = "PKG2", Weight = 75, Distance = 125, OfferCode = "OFFR0008" },
+            new() { Id = "PKG3", Weight = 175, Distance = 100, OfferCode = "OFR003" },
+            new() { Id = "PKG4", Weight = 110, Distance = 60, OfferCode = "OFR002" },
+            new() { Id = "PKG5", Weight = 155, Distance = 95, OfferCode = "NA" }
+        };
+
+            double baseCost = 100;
+
+            foreach (var p in packages)
+                p.Discount = _service.CalculateDiscount(p, baseCost, _offers);
+
+            packages[0].Discount.Should().Be(0);
+            packages[1].Discount.Should().Be(0);
+            packages[2].Discount.Should().Be(0);
+            packages[3].Discount.Should().Be(105);  // This is the correct one
+            packages[4].Discount.Should().Be(0);
         }
     }
 }

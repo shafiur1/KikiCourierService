@@ -11,41 +11,34 @@ namespace KikiCourierService.Services
 {
     public class DeliveryPlanner : IDeliveryPlanner
     {
-        // This is the exact rounding used in the official PDF sample
-        private static double RoundToTwoDecimals(double value)
-        {
-            // They use banker's rounding but floor for time (125/70 = 1.7857 → 1.78)
-            return Math.Floor(value * 100) / 100.0;
-        }
+        private static double FloorToTwoDecimals(double value) =>
+            Math.Floor(value * 100) / 100.0;
 
         public void PlanDeliveries(List<Package> packages, int numVehicles, double speed, double maxCarriableWeight)
         {
-            var availableTimes = new PriorityQueue<double, double>();
+            var vehicleQueue = new PriorityQueue<double, double>();
             for (int i = 0; i < numVehicles; i++)
-                availableTimes.Enqueue(0.0, i);
+                vehicleQueue.Enqueue(0.0, i);
 
             var remaining = new List<Package>(packages);
 
-            while (remaining.Count > 0 && availableTimes.Count > 0)
+            while (remaining.Count > 0 && vehicleQueue.Count > 0)
             {
-                double currentTime = availableTimes.Dequeue();
+                double currentTime = vehicleQueue.Dequeue();
 
                 var shipment = FindBestShipment(remaining, maxCarriableWeight);
                 if (shipment.Count == 0) break;
 
-                double maxDist = shipment.Max(p => p.Distance);
-                double oneWayTime = maxDist / speed;
-                double roundTripTime = 2 * oneWayTime;
+                double maxDistance = shipment.Max(p => p.Distance);
+                double roundTripTime = 2 * (maxDistance / speed);
 
                 foreach (var pkg in shipment)
                 {
-                    double travelTime = pkg.Distance / speed;
-                    pkg.DeliveryTime = RoundToTwoDecimals(currentTime + travelTime);
+                    pkg.DeliveryTime = FloorToTwoDecimals(currentTime + pkg.Distance / speed);
                     remaining.Remove(pkg);
                 }
 
-                double nextAvailableTime = currentTime + roundTripTime;
-                availableTimes.Enqueue(nextAvailableTime, nextAvailableTime);
+                vehicleQueue.Enqueue(currentTime + roundTripTime, currentTime + roundTripTime);
             }
         }
 
@@ -53,7 +46,7 @@ namespace KikiCourierService.Services
         {
             var best = new List<Package>();
 
-            void Backtrack(int index, List<Package> current, double currentWeight)
+            void Backtrack(int index, List<Package> current, double weightSum)
             {
                 if (index == packages.Count)
                 {
@@ -62,14 +55,12 @@ namespace KikiCourierService.Services
                     return;
                 }
 
-                // Skip
-                Backtrack(index + 1, current, currentWeight);
+                Backtrack(index + 1, current, weightSum);
 
-                // Include if possible
-                if (currentWeight + packages[index].Weight <= maxWeight)
+                if (weightSum + packages[index].Weight <= maxWeight)
                 {
                     current.Add(packages[index]);
-                    Backtrack(index + 1, current, currentWeight + packages[index].Weight);
+                    Backtrack(index + 1, current, weightSum + packages[index].Weight);
                     current.RemoveAt(current.Count - 1);
                 }
             }
@@ -77,9 +68,9 @@ namespace KikiCourierService.Services
             bool IsBetter(IReadOnlyCollection<Package> a, IReadOnlyCollection<Package> b)
             {
                 if (a.Count != b.Count) return a.Count > b.Count;
-                double weightA = a.Sum(p => p.Weight);
-                double weightB = b.Sum(p => p.Weight);
-                if (Math.Abs(weightA - weightB) > 0.001) return weightA > weightB;
+                double sumA = a.Sum(p => p.Weight);
+                double sumB = b.Sum(p => p.Weight);
+                if (Math.Abs(sumA - sumB) > 0.001) return sumA > sumB;
 
                 double maxDistA = a.Count == 0 ? double.MaxValue : a.Max(p => p.Distance);
                 double maxDistB = b.Count == 0 ? double.MaxValue : b.Max(p => p.Distance);

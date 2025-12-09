@@ -13,12 +13,12 @@ namespace KikiCourierService.Services
             _discountService = discountService;
         }
 
-        public void CalculateCosts(double baseCost, IEnumerable<Package> packages, IEnumerable<Offer> offers)
+        public void CalculateCosts(double baseCost, List<Package> packages, IEnumerable<Offer> offers)
         {
             foreach (var pkg in packages)
             {
-                double fullCost = baseCost + (pkg.Weight * 10) + (pkg.Distance * 5);
-                double discount = _discountService.CalculateDiscount(pkg, fullCost, offers);
+                double fullCost = pkg.CalculateFullCost(baseCost);
+                double discount = _discountService.CalculateDiscount(pkg, baseCost, offers);
 
                 pkg.Discount = discount;
                 pkg.TotalCost = fullCost - discount;

@@ -4,6 +4,6 @@ namespace KikiCourierService.Interfaces
 {
     public interface ICostCalculator
     {
-        void CalculateCosts(double baseCost, IEnumerable<Package> packages, IEnumerable<Offer> offers);
+        void CalculateCosts(double baseCost, List<Package> packages, IEnumerable<Offer> offers);
     }
 }

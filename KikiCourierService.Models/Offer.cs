@@ -10,5 +10,8 @@ namespace KikiCourierService.Models
         public double MaxDistance { get; init; }
         public double MinWeight { get; init; }
         public double MaxWeight { get; init; }
+
+        public double CalculateDiscountAmount(double fullCost) =>
+            Math.Floor(fullCost * DiscountPercentage / 100);
     }
 }
