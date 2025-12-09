@@ -7,7 +7,7 @@
 **Rich domain model (no anemic models)**  
 **Used by thousands who got offers from Everest, Swiggy, Zepto, PhonePe, Dream11, Flipkart**
 
-![Kiki's Delivery Service](https://i.imgur.com/8vG5z1m.png)
+
 
 ---
 
